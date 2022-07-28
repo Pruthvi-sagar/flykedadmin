@@ -1,0 +1,26 @@
+.post-color-pallet-text {
+    color: #FFFFFF;
+    padding: 0px 20px;
+    font: normal normal 24px/25px "SF Pro Rounded", sans-serif !important; 
+    width: 100%;
+    word-break: break-word;  
+}
+
+.post-color-pallet-lables {
+    font: normal normal 500 14px/17px 'SF Pro Rounded', sans-serif !important;
+    display: flex;
+    align-items: center;
+    color: #1C2121;
+    margin-bottom: 5px !important;
+}
+
+.color-paller-child-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0 !important;
+}
+
+.color-pallet-chnageImage-btn {
+    text-transform:capitalize !important;
+}

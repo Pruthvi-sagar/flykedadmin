@@ -1,0 +1,224 @@
+.pending-post-main-container {
+    background: #FFFFFF !important;
+    border-radius: 10px !important;
+    height: 100% !important;
+    padding: 1rem 1.5rem;
+    width: 100% !important;
+}
+
+.pending-post-check-box-label {
+    font: normal normal 500 16px/19px 'SF Pro Rounded', sans-serif !important;
+    letter-spacing: 0.02em;
+    color: #172849;
+}
+
+.pending-post-selected-count-label {
+    font: normal normal 500 14px/17px 'SF Pro Rounded', sans-serif !important;
+    letter-spacing: 0.02em;
+    color: #888F9D;
+    padding: 0px 2rem;
+}
+.pending-post-approve-reject-btn {
+    background-color: #FFFFFF;
+    text-transform: capitalize;
+    height: 40px;
+    width: 123px;
+    font: normal normal 600 14px/17px 'SF Pro Rounded', sans-serif !important;
+    letter-spacing: 0.02em;
+    display: flex !important;
+    justify-content:space-around !important;
+    align-items: center;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.02), 0px 4px 8px rgba(22, 48, 72, 0.1) !important;
+}
+
+
+/* post detail card */
+
+.pending-post-detail-card {
+    background: #FFFFFF !important;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.02), 0px 4px 8px rgba(22, 48, 72, 0.1) !important;
+    border-radius: 4px !important;
+    width: 100% !important;
+    margin: 0px;
+}
+
+.pending-post-user-label {
+    font: normal normal 12px/14px 'SF Pro Rounded', sans-serif !important;
+    letter-spacing: 0.02em;
+    color: #888F9D;
+}
+
+.pending-post-user-name {
+    font: normal normal 500 14px/17px 'SF Pro Rounded', sans-serif !important;
+    letter-spacing: 0.02em;
+    color: #172849;
+    white-space: nowrap;
+    max-width: 150px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: block;
+    cursor: pointer;
+}
+
+.pending-post-user-detail-image-div {
+    padding: 0px 0.5rem 0px 0.5rem;
+}
+
+.pending-post-image-div {
+    width: 100%;
+    height: 683px !important;
+    margin: 0px !important;
+    padding: 0px !important;
+}
+
+.pending-post-footer-btns {
+    padding: 0px !important;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.02), 0px 4px 8px rgba(22, 48, 72, 0.1);
+    border-radius: 4px;
+    height: 50px;
+}
+.pending-post-footer-accept-reject-btn {
+    height: 50px;
+    text-transform: capitalize;
+    background-color: #FFFFFF;
+    border-radius: 0px;
+    box-shadow: 0px 0px;
+}
+
+.pending-post-action-div {
+    height: 683px !important;
+    display: grid !important;
+    align-content: space-between;
+}
+
+.pending-post-dob-text {
+    font: normal normal 14px/17px 'SF Pro Rounded', sans-serif !important;
+    /* text-transform: uppercase; */
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+
+/* page Select Model */
+
+.page-select-model-header {
+    height: 60px !important;
+    background: #ffffff;
+    padding: 8px 15px !important;
+    box-shadow: 0px 4.0688px 10.172px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    text-align: center;
+  }
+  .page-select-model-header-label {
+    text-transform: initial !important;
+    font: normal normal 600 18px/21px 'SF Pro Rounded', sans-serif !important;
+    letter-spacing: 0.02em;
+    color: #1C2121;
+    outline: none;
+    background: transparent !important;
+    display: flex;
+    align-items: center;
+  }
+  
+  .page-select-model-footer {
+    height: 60px !important;
+    padding: 8px !important;
+    box-shadow: 0px -4px 10.172px rgba(0, 0, 0, 0.1);
+  }
+  
+  .page-select-model-footer-btn {
+    text-transform: initial !important;
+    font: normal normal 13px/16px 'SF Pro Rounded', sans-serif !important;
+    letter-spacing: 0.02em;
+    height: 35px;
+  }
+  
+  .page-select-model-main-content-div {
+    height: 400px !important;
+    overflow-y: hidden !important;
+  }
+  
+  .page-select-model-search-input-field {
+    background: #f7f7f8;
+    border-radius: 6px !important;
+    height: 40px;
+    width: 100%;
+    outline: none !important;
+    border: none !important;
+    padding: 0px 10px;
+    font: normal normal 14px/17px 'SF Pro Rounded', sans-serif !important;
+    letter-spacing: 0.02em;
+    color: #172849 !important;
+  }
+  .page-select-model-page-list-main-div {
+    height: 300px !important;
+    overflow-y: auto !important;
+  }
+  .page-select-model-suggested-label {
+    font: normal normal 14px/17px 'SF Pro Rounded', sans-serif !important;
+    letter-spacing: 0.02em;
+    color: #172849;
+  }
+  .page-select-model-page-footer-label {
+    font: normal normal 14px/17px 'SF Pro Rounded', sans-serif !important;
+    letter-spacing: 0.02em;
+    color: #172849;
+  }
+  .page-select-model-page-footer-label-link {
+    font: normal normal 14px/17px 'SF Pro Rounded', sans-serif !important;
+    letter-spacing: 0.02em;
+    color: #ef613b;
+    text-decoration: none;
+    text-transform: initial !important;
+  }
+  .page-select-model-list-title {
+    font: normal normal bold 14px/17px 'SF Pro Rounded', sans-serif !important;
+    letter-spacing: 0.02em;
+    color: #172849;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    /* width: 100%; */
+  }
+  .page-select-model-list-desc {
+    font: normal normal 12px/14px 'SF Pro Rounded', sans-serif !important;
+    letter-spacing: 0.02em;
+    color: lightslategray;
+    display: '-webkit-box';
+    max-width: 23.5rem !important;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  
+  .page-select-modle-records-not-found-message {
+    font: normal normal 500 22px/26px 'SF Pro Rounded', sans-serif !important;
+    letter-spacing: 0.02em;
+    color: #172849;
+    text-align: center !important;
+    margin-top: 3rem !important;
+  }
+
+
+/* image croper model */
+.post-image-croper-model-header {
+    font: normal normal 20px/29px 'SF Pro Rounded', sans-serif !important;
+    color: #172849 !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.post-croper-model-footer {
+    box-shadow: 0px -2px 20px rgba(0, 0, 0, 0.1);
+    height: auto !important;
+    padding: 0px !important;
+}
+  
+.post-croper-model-footer-btn {
+    text-transform: capitalize !important;
+    height: 40px !important;
+}
+  

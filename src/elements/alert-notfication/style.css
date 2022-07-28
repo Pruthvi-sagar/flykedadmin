@@ -1,0 +1,27 @@
+.alert__container-mobile {
+    z-index: 900000 !important;
+    position: fixed;
+    top: 3vh;
+    font-weight: bold !important;
+    right: 2%;
+    left: 2%;
+    transform: translateX(-0%);
+}
+
+.alert__container-deskTop {
+  z-index: 900000 !important;
+  position: fixed;
+  top: 3vh;
+  font-weight: bold !important;
+  left: 50% !important;
+  right: '' !important;
+  transform: translateX(-50%);
+}
+  
+/* @media screen and (min-width: 1024px) {
+  .alert__container {
+    left: 50% !important;
+    right: '' !important;
+    transform: translateX(-50%);
+ }
+} */
